@@ -1,0 +1,59 @@
+/* Summary.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .movie-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .movie-summary {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .form-input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .form-button:hover {
+    background-color: #0056b3;
+  }
